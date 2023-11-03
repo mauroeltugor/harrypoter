@@ -1,10 +1,22 @@
-// import './App.css'
+import { movies } from "./helpers/harryPotterApi";
+import { Target } from "./components/Target/Target";
+import { Header } from "./components/Header/Header";
+
+import './App.css'
 
 function App() {
 
+  console.log(movies);
+
   return (
     <>
-      <h1>Hello world</h1>
+      <Header />
+      <div className="container">
+      {movies.map((movie)=> (
+        <Target key={movie.id} movie={movie} />
+      ))}
+
+      </div>
     </>
   )
 }
