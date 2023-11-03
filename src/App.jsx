@@ -1,6 +1,12 @@
+import { Routes, Route } from "react-router-dom";
+
 import { movies } from "./helpers/harryPotterApi";
-import { Target } from "./components/Target/Target";
+
 import { Header } from "./components/Header/Header";
+import  Kart  from "./components/Kart/Kart";
+import Home from "./components/Home/Home"
+
+
 
 import './App.css'
 
@@ -11,12 +17,11 @@ function App() {
   return (
     <>
       <Header />
-      <div className="container">
-      {movies.map((movie)=> (
-        <Target key={movie.id} movie={movie} />
-      ))}
-
-      </div>
+      <Routes>
+        <Route path="/kart" element={<Kart/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
+      </Routes>
+      
     </>
   )
 }
