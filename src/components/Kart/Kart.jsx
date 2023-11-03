@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Kart = ({ cart }) => {
+const Kart = ({ cart, book }) => {
   return (
     <div>
       <h2>Carrito de Compras</h2>
