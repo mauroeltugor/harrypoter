@@ -1,27 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-export const Target = ({ movie }) => {
+const Target = ({ book }) => {
   return (
-    <>
-    
     <div className='bookCard'>
       <section className="bookImg">
-        <img src={movie.caratulaURL} alt={movie.titulo} className='img'/>
+        <img src={book.image} alt={book.name} className='img' />
       </section>
-       
-        <section className="side">
-            <h2 className='title'>{movie.titulo}</h2>
-            <p>Año: {movie.año}</p>
-            <p>Precio: ${movie.precioDolares}</p>
-            <p>Stock: {movie.stock} unidades</p>
-            <button className="comprar">
-              COMPRAR
-            </button>
-        </section>
-        
+      <section className="side">
+        <h2 className='title'>{book.name}</h2>
+        <p>Precio: ${book.price}</p>
+        <p>Stock: {book.stock} unidades</p>
+        <button className="comprar">
+          COMPRAR
+        </button>
+      </section>
     </div>
-    </>
-  )
+  );
 }
 
 export default Target;
