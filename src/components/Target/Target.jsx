@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Target = ({ book }) => {
+const Target = ({ book, onBuy }) => {
   return (
     <div className='bookCard'>
       <section className="bookImg">
@@ -10,8 +10,8 @@ const Target = ({ book }) => {
         <h2 className='title'>{book.name}</h2>
         <p>Precio: ${book.price}</p>
         <p>Stock: {book.stock} unidades</p>
-        <button className="comprar">
-          COMPRAR
+        <button className="comprar" onClick={onBuy}>
+          Comprar
         </button>
       </section>
     </div>
