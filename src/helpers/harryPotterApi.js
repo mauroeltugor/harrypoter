@@ -4,7 +4,7 @@ export const movies = [
     titulo: "Harry Potter y la piedra filosofal",
     año: 2001,
     precioDolares: 14.99,
-    caratulaURL: "https://ejemplo.com/caratura1.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 100,
   },
   {
@@ -12,7 +12,7 @@ export const movies = [
     titulo: "Harry Potter y la cámara secreta",
     año: 2002,
     precioDolares: 15.99,
-    caratulaURL: "https://ejemplo.com/caratura2.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 80,
   },
   {
@@ -20,7 +20,7 @@ export const movies = [
     titulo: "Harry Potter y el prisionero de Azkaban",
     año: 2004,
     precioDolares: 16.99,
-    caratulaURL: "https://ejemplo.com/caratura3.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 120,
   },
   {
@@ -28,7 +28,7 @@ export const movies = [
     titulo: "Harry Potter y el cáliz de fuego",
     año: 2005,
     precioDolares: 17.99,
-    caratulaURL: "https://ejemplo.com/caratura4.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 90,
   },
   {
@@ -36,7 +36,7 @@ export const movies = [
     titulo: "Harry Potter y la Orden del Fénix",
     año: 2007,
     precioDolares: 18.99,
-    caratulaURL: "https://ejemplo.com/caratura5.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 110,
   },
   {
@@ -44,7 +44,7 @@ export const movies = [
     titulo: "Harry Potter y el misterio del príncipe",
     año: 2009,
     precioDolares: 19.99,
-    caratulaURL: "https://ejemplo.com/caratura6.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 70,
   },
   {
@@ -52,7 +52,7 @@ export const movies = [
     titulo: "Harry Potter y las Reliquias de la Muerte - Parte 1",
     año: 2010,
     precioDolares: 20.99,
-    caratulaURL: "https://ejemplo.com/caratura7.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 60,
   },
   {
@@ -60,7 +60,7 @@ export const movies = [
     titulo: "Harry Potter y las Reliquias de la Muerte - Parte 2",
     año: 2011,
     precioDolares: 21.99,
-    caratulaURL: "https://ejemplo.com/caratura8.jpg",
+    caratulaURL: "https://1.bp.blogspot.com/-Swnw1F-qqms/XmUL5f-OekI/AAAAAAAAGxM/3PagZ_C_nxYw7DDzAKmZD1fQXud0VmXAwCLcBGAsYHQ/s1600/portada-harry-potter-y-la-piedra-filosofal-nueva-edicion-bolsillo-2020-libro-pdf.jpg",
     stock: 50,
   },
 ];
